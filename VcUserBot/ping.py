@@ -83,3 +83,10 @@ async def goodnight(client, m: Message):
 <i> 😴🛌Gøød Night 🌚</i>
 """
     await m.reply(GN)
+
+@Client.on_message(filters.command(["تويت"], prefixes=f"{HNDLR}"))
+async def goodmorning(client, m: Message):
+    GM = f"""
+<i>لو قالو لك تتخلى عن شي واحد تحبه بحياتك وش يكون؟</i>
+"""
+    await m.reply(تويت)
