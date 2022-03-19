@@ -83,23 +83,3 @@ async def goodnight(client, m: Message):
 <i> 😴🛌Gøød Night 🌚</i>
 """
     await m.reply(GN)
-
-@Client.on_message(filters.command(["تويت"], prefixes=f"{HNDLR}"))
-async def goodmorning(client, m: Message):
-    GM = f"""
-<i>لو قالو لك تتخلى عن شي واحد تحبه بحياتك وش يكون؟</i>
-"""
-    await m.reply(تويت)
-
-@Client.on_message(filters.command(["سورس"], prefixes=f"{HNDLR}"))
-async def goodmorning(client, m: Message):
-    GM = f"""
-<i>╭───── •ᯤ• ─────╮
-⌯ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑺𝑴𝑺𝑴
-⌯ 𝑰𝑵𝑭𝑶 𝑺𝑶𝑼𝑹𝑪𝑬
-⌯ 𝑮𝑹𝑶𝑼𝑷 𝑻𝑾𝑺
-⌯ 𝑫𝑬𝑽 𝑺𝑶𝑼𝑹𝑪𝑬 𝑺𝑴𝑺𝑴
-╰───── •ᯤ • ─────╯
-✴ 𝑻𝑯𝑬 𝑩𝑬𝑺𝑻 𝑶𝑵 𝑺𝑶𝑼𝑹𝑪𝑬 ⏎</i>
-"""
-    await m.reply(سورس)
